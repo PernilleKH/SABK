@@ -1,0 +1,23 @@
+section.boxers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columns */
+    max-width: 960px; /* maximum size of the section container */
+}
+h1 {
+    text-align: center;
+}
+
+article.boxer {
+    min-width:200px;
+    margin-bottom: 1em;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    padding-left: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
